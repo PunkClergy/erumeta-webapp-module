@@ -1,4 +1,9 @@
 import React, { PureComponent } from 'react';
+// import { Form } from '@ant-design/compatible';
+
+// import '@ant-design/compatible/assets/index.css';
+
+
 import {
   Form,
   Modal,
@@ -17,11 +22,11 @@ import {
   InputNumber,
   Spin,
 } from 'antd';
-import NameInput from '@/components/NameInput/index';
-import AddressInput from '@/components/AddressInput/index';
-import PicturesWall from '@/components/PicturesWall/index';
-// import modalStyle from './index.less';
-import { regexp } from '../../common/common';
+import modalStyle from './index.less';
+import NameInput from "../../components/NameInput/index";
+import AddressInput from "../../components/AddressInput/index";
+import PicturesWall from "../../components/PicturesWall/index";
+import { regexp } from "../../common/common";
 
 const { TextArea } = Input;
 const RadioGroup = Radio.Group;
@@ -698,7 +703,7 @@ const MyModalTwo = (props) => {
     <Modal
       destroyOnClose
       maskClosable={false}
-      // className={modalStyle.antProbablyStudentModal}
+      className={modalStyle.antProbablyStudentModal}
       onOk={handleModalOk}
       onCancel={handleCancel}
       zIndex={zIndex || 1000}
