@@ -20,10 +20,10 @@ import {
 import { LoadingOutlined, PlusOutlined } from "@ant-design/icons";
 import moment from "moment";
 import modalStyle from "./index.less";
-import NameInput from "../components/NameInput/index";
-import AddressInput from "../components/AddressInput/index";
-import PicturesWall from "../components/PicturesWall/index";
-import { regexp } from "../common/common";
+import NameInput from "../../components/NameInput/index";
+import AddressInput from "../../components/AddressInput/index";
+import PicturesWall from "../../components/PicturesWall/index";
+import { regexp } from "../../common/common";
 
 const { TextArea } = Input;
 const RadioGroup = Radio.Group;

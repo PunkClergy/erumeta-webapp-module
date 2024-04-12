@@ -1,0 +1,38 @@
+.antProbablyStudentModal {
+  :global {
+    ::-webkit-scrollbar {
+      width: 4px;
+      background-color: white;
+      border-radius: 4px;
+      height: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+      /*滚动条里面小方块*/
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.45);
+    }
+    .ant-modal-body {
+      .ant-form-item [class^='ant-col-'] > .ant-form-item:only-child {
+        margin-bottom: 0;
+      }
+      .ant-form-item {
+        display: flex;
+        //     margin-bottom: 10px;
+        .ant-form-item-control-wrapper {
+          flex: 4;
+        }
+      }
+      .itemNoSpace.ant-form-item {
+        margin-bottom: 0;
+      }
+      .changeContainer.ant-row {
+        padding-left: 20px;
+        background-color: lightgray;
+        border-radius: 5px;
+        margin: 0 auto !important;
+        margin-left: 0 !important;
+        margin-left: 0 !important;
+      }
+    }
+  }
+}
