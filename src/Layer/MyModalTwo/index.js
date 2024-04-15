@@ -703,7 +703,7 @@ const MyModalTwo = (props) => {
     <Modal
       destroyOnClose
       maskClosable={false}
-      className={modalStyle.antProbablyStudentModal}
+      // className={modalStyle.antProbablyStudentModal}
       onOk={handleModalOk}
       onCancel={handleCancel}
       zIndex={zIndex || 1000}
